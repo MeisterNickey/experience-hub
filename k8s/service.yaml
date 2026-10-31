@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: experience-hub-api-svc
+  labels:
+    app: experience-hub-api
+spec:
+  type: ClusterIP
+  selector:
+    app: experience-hub-api
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 8080
