@@ -48,9 +48,7 @@ experience-hub/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   └── feature_request.md
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── workflows/
-│       └── ci.yml
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── cmd/
 │   ├── api/
 │   │   └── main.go              # Go Core API entrypoint
